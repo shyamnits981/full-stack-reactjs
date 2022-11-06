@@ -9,7 +9,7 @@ const SignIn = () => {
     const [password, setPassword] = useState("")
     const [email, setEmail] = useState("")
     const PostData = async () => {
-        let result = await fetch('http://localhost:5000/signup', {
+        let result = await fetch('https://fullstack-nodejs-projects.herokuapp.com/signup', {
             method: 'post',
             body: JSON.stringify({ email, password }),
             headers: {

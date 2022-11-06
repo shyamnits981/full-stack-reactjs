@@ -11,7 +11,7 @@ const Addlist = () => {
 
     const handleaddlist = async () => {
         console.log(activity, status, time, action)
-        let result = await fetch('http://localhost:5000/addlist', {
+        let result = await fetch('https://fullstack-nodejs-projects.herokuapp.com/addlist', {
             method: 'post',
             body: JSON.stringify({ activity, status, time, action }),
             headers: {
