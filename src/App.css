@@ -1,0 +1,170 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Nunito+Sans:wght@200&display=swap');
+
+  a{
+    color: black !important;
+  }
+  .brand-logo{
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  .mycart{
+    margin-top: 20px;
+  
+  }
+  .auth-card{
+  padding:20px;
+  text-align: center;
+  height: 400px;
+  max-width: 500px;
+  margin: 10px auto;
+  background-color: rgb(228, 235, 235);
+  }
+  .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .item{
+    width: 30%;
+  }
+  
+  .home-card{
+    max-width: 500px;
+    height: max-content;
+    margin: 26px auto;
+  }
+  
+  /* //Predefinde id */
+  #toast-container{
+    top:30px;
+    right:20px;
+    left:auto !important;
+  }
+  .input{
+    height: 40px;
+    margin: 5px;
+  }
+  .card{
+    display:flex;
+    flex-direction: column;
+  }
+  .bg{
+    background-color: rgb(82, 141, 82);
+    height: 100vh;
+    width: 100vw;
+  }
+  .bt{
+    background-color: rgb(229, 111, 68);
+    height: 100vh;
+    width: 100vw;
+  }
+  .product{
+    margin-left: 30%;
+  }
+  .inputBox{
+    padding: 7px;
+    display: block;
+    border: 1px solid skyblue;
+    width: 300px;
+    margin: 20px;
+  }
+  .appButton{
+    margin: 20px;
+    width: 200px;
+    padding: 10px;
+    background-color: skyblue;
+    border: solid 1px;
+    cursor: pointer;
+  }
+  .list{
+    margin-left: 5%;
+    text-align: center;
+  }
+
+.right{
+  height: 50px;
+  margin: 50px;
+  margin-left: 900px;
+  font-size: 30px;
+  color: blueviolet;
+  border: 5px solid blueviolet;
+}
+.list ul{
+  margin: 0;
+  margin-left: 5%;
+}
+.user{
+  height: 100px;
+  width: 100vw;
+  margin-top: 0%;
+  
+}
+p{
+  text-align: right;
+  margin-right: 50px;
+  font-size: 30px;
+}
+
+.font{
+  display: flex;
+  font-size: 30px;
+
+}
+.font1{
+  display: flex;
+  color: white;
+  font-size: 30px;
+  background-color: rgb(24, 209, 27);
+}
+
+.font2{
+  display: flex;
+  font-size: 30px;
+  width: 320px;
+  text-align: center;
+  border: 1px solid black;
+}
+.cointenter{
+  height: 100vh;
+  width: 100wh;
+} 
+.navbars{
+  height: 100px;
+  width: 100vw;
+  border: 3px solid rgb(98, 189, 12);
+}
+.maincontainer{
+  display: flex;
+}
+.asidebar{
+  height: 100vh;
+  width: 20%;
+  color: white;
+  background-color: rgb(98, 189, 12);
+}
+.headers{
+  height: 100px;
+  width: 80vw;
+}
+.maincotiner{
+  height: 100vh;
+}
+.logout{
+  margin-top: 70vh;
+  margin-left: 60px;
+}
+.ullists{
+  display: flex;
+  margin-left: 40px;
+  height: 50px;
+  width: 66%;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(20, 61, 61);
+}
+.itemss ul li {
+  display: flex;
+  padding: 5px;
+  width: 200px;
+}
+
