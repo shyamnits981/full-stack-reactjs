@@ -4,13 +4,15 @@
   a{
     color: black !important;
   }
+  
   .brand-logo{
     font-family: 'Nunito Sans', sans-serif;
   }
+  
   .mycart{
     margin-top: 20px;
-  
   }
+
   .auth-card{
   padding:20px;
   text-align: center;
@@ -19,14 +21,17 @@
   margin: 10px auto;
   background-color: rgb(228, 235, 235);
   }
+  
   .gallery{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
+  
   .item{
     width: 30%;
   }
+  
   
   .home-card{
     max-width: 500px;
@@ -40,27 +45,33 @@
     right:20px;
     left:auto !important;
   }
+  
   .input{
     height: 40px;
     margin: 5px;
   }
+  
   .card{
     display:flex;
     flex-direction: column;
   }
+  
   .bg{
     background-color: rgb(82, 141, 82);
     height: 100vh;
     width: 100vw;
   }
+  
   .bt{
     background-color: rgb(229, 111, 68);
     height: 100vh;
     width: 100vw;
   }
+  
   .product{
     margin-left: 30%;
   }
+  
   .inputBox{
     padding: 7px;
     display: block;
@@ -68,6 +79,7 @@
     width: 300px;
     margin: 20px;
   }
+  
   .appButton{
     margin: 20px;
     width: 200px;
@@ -76,12 +88,14 @@
     border: solid 1px;
     cursor: pointer;
   }
+  
   .list{
     margin-left: 5%;
     text-align: center;
   }
 
-.right{
+
+  .right{
   height: 50px;
   margin: 50px;
   margin-left: 900px;

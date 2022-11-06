@@ -10,7 +10,7 @@ const Productlist = () => {
     }, [])
 
     const getProducts = async () => {
-        let result = await fetch('https://fullstack-nodejs-projects.herokuapp.com/addlist');
+        let result = await fetch('http://localhost:5000/addlist');
         result = await result.json();
         setProduct(result)
     }

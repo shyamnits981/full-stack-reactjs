@@ -11,7 +11,7 @@ const Signup = () => {
     
     const PostData = async () => {
         console.log(username,email,password)
-        let result = await fetch('https://fullstack-nodejs-projects.herokuapp.com/signup', {
+        let result = await fetch('http://localhost:5000/signup', {
             method: 'post',
             body:JSON.stringify({username,email,password}),
             headers: {

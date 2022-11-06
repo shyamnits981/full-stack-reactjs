@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const NavBar=()=>{
 
     return(
-        <nav>
+      <nav>
         <div className="nav-wrapper white">
           <ul id="nav-mobile" className="right">
             <li><Link to="signIn">Signin</Link></li>
@@ -14,5 +14,4 @@ const NavBar=()=>{
       </nav>
     )
 }
-
 export default NavBar;
